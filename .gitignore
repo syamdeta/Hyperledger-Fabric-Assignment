@@ -1,0 +1,35 @@
+# Ignore node_modules and vendor directories
+node_modules/
+vendor/
+
+# Ignore test network artifacts
+*.pem
+*.block
+*.json
+*.yaml
+*.yml
+*.log
+*.tar.gz
+mychannel.tx
+docker-compose*
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+__pycache__/
+*.iml
+
+# Ignore Docker-related files
+*.tar
+*.tar.gz
